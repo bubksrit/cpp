@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int fact(int n){
-    int f=1;
     if (n==0||n==1)
     return 1;
     else
@@ -9,7 +8,6 @@ int fact(int n){
 }
 int main(){
     int n=5;
-    int f=fact(n);
-    cout<<f;
+    cout<<fact(n);;
     return 0;
 }
