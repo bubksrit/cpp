@@ -11,6 +11,6 @@ int bintodec(int n){
     return decn;
 }
 int main(){
-    cout<<bintodec(110010);
+    cout<<bintodec(110010); //output=50
     return 0;
 }
